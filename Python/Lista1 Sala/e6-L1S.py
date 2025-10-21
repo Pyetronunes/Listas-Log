@@ -1,0 +1,5 @@
+V=float(input('Digite o valor da pretação: '))
+T=float(input('Digite o valor da taxa: '))
+Tempo=int(input('Digite o valor do tempo: '))
+Prestação= V+(V*(T/100)*Tempo)
+print('O valor da prestação é: ', Prestação)
